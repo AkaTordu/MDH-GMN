@@ -4,4 +4,7 @@
     <string name="header_title">Title</string>
     <string name="btn_info">Infos</string>
     <string name="btn_products">Produits</string>
+    <string name="txt_title_main">EPSI</string>
+    <string name="txt_title_infos">Infos</string>
+    <string name="txt_title_produits">Produits</string>
 </resources>
