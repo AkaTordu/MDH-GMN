@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MDH-GMN</string>
+    <string name="logo">LOGO</string>
+    <string name="header_title">Title</string>
+    <string name="btn_info">Infos</string>
+    <string name="btn_products">Produits</string>
 </resources>
