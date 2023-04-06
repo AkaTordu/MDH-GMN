@@ -4,10 +4,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
-import com.epsi.mdhgmn.CategoryItem
-import com.epsi.mdhgmn.ProductItem
-import com.epsi.mdhgmn.ProductsActivity
-import com.epsi.mdhgmn.R
+import com.epsi.mdhgmn.*
 
 class ProductAdapter(private val productItems: List<ProductItem>) :
     RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
@@ -28,8 +25,9 @@ class ProductAdapter(private val productItems: List<ProductItem>) :
 
         holder.productButton.setOnClickListener {
             val context = holder.itemView.context
-            val intent = Intent(context, ProductsActivity::class.java)
+            val intent = Intent(context, ProductView::class.java)
             intent.putExtra("picture_url", productItem.picture_url)
+            intent.putExtra("decription", productItem.description)
             intent.putExtra("name", productItem.name)
             context.startActivity(intent)
         }
