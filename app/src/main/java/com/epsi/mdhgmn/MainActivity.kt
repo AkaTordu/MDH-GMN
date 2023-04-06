@@ -20,7 +20,7 @@ class MainActivity : BaseActivity() {
 
         val buttonProduct = findViewById<Button>(R.id.buttonProducts)
         buttonProduct.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this, ProductsActivity::class.java)
+            val intent = Intent(this, CategoryActivity::class.java)
             startActivity(intent)
         })
     }
