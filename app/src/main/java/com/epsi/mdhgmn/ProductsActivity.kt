@@ -1,7 +1,6 @@
 package com.epsi.mdhgmn
 
 import ProductAdapter
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -23,7 +22,7 @@ class ProductsActivity : BaseActivity() {
     private lateinit var productsRecyclerView: RecyclerView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_produits)
+        setContentView(R.layout.activity_products)
 
         val title = intent.extras?.getString("title")
         val url = intent.extras?.getString("products_url").toString()

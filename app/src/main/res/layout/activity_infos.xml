@@ -22,12 +22,12 @@
 
             <Button
                 android:id="@+id/buttonMax"
-                style="@style/ButtonStyle"
+                style="@style/ButtonStyle_Wide"
                 android:text="@string/btn_max" />
 
             <Button
                 android:id="@+id/buttonGermain"
-                style="@style/ButtonStyle"
+                style="@style/ButtonStyle_Wide"
                 android:text="@string/btn_germain" />
         </LinearLayout>
     </ScrollView>
