@@ -4,17 +4,17 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/teal_200"
+        android:background="@color/orange_500"
         android:gravity="center"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
         android:text="Title"
-        />
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageViewBack"

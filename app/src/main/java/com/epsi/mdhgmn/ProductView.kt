@@ -21,17 +21,12 @@ class ProductView : BaseActivity() {
 
         // Find the UI elements
         val productImage: ImageView = findViewById(R.id.product_image)
-        val productName: TextView = findViewById(R.id.product_name)
         val productDescription: TextView = findViewById(R.id.product_description)
 
         // Load the image using Picasso
         Picasso.get().load(pictureUrl).into(productImage)
 
         // Set the text for the TextViews
-        productName.text = name
         productDescription.text = description
-
-
     }
-
 }
