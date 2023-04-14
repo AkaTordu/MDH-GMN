@@ -38,7 +38,7 @@ class ProductAdapter(private val productItems: List<ProductItem>) :
             val context = holder.itemView.context
             val intent = Intent(context, ProductView::class.java)
             intent.putExtra("picture_url", productItem.picture_url)
-            intent.putExtra("decription", productItem.description)
+            intent.putExtra("description", productItem.description)
             intent.putExtra("name", productItem.name)
             context.startActivity(intent)
         }
