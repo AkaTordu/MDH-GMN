@@ -13,7 +13,7 @@ class ProductView : BaseActivity() {
 
         // Retrieve the extras from the intent
         val pictureUrl = intent.getStringExtra("picture_url")
-        val description = intent.getStringExtra("decription")
+        val description = intent.getStringExtra("description")
         val name = intent.getStringExtra("name")
 
         showBack()
